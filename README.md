@@ -2,24 +2,62 @@
 
 *Develop, Render, and Deploy JavaScript for a FileMaker App*
 
-# This Kit
-## What it does
+# What it does
 This environment allows a FileMaker developer to start coding their widget and see the results right away in a FileMaker file. Once done developing, the can be inlined and pushed to the FileMaker file for use offline.
-<br/>
-It's a template file, so you can use to start other projects.
-## Consists of
-- A repository template on Github
-- A basic html / JS set up.
-- package.json file for install
-- A FileMaker file to show the widget rendered
-- Scripts to build and upload the inlined code to FileMaker
-## TO GET STARTED Using this file
-1. `npm install`
-2. `npm start`
-3. Open the jsDev.fmp12 file.
-4. Allow it to work in Dev mode.
 
-At this point you should see the web viewer on the layout load up with the HTML and JavaScript here. Edit the JavaScript or the HTML and you'll see the render in the web viewer update.
+# Project Setup Instructions
 
-## Use this kit
-Now you're ready to use this kit to create awesome JS widgets.
+Follow these steps to set up and run the project on your local machine.
+
+## Prerequisites
+
+Make sure you have the following software installed on your computer:
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/) (which includes npm)
+
+## Steps to Run the Project
+
+**Clone the Repository:**
+
+First, you need to copy the project repository to your local machine. Open the terminal and run the following command:
+
+```bash
+git clone https://github.com/c-zab/fm-js
+```
+
+Replace `https://github.com/c-zab/fm-js` with the URL of your GitHub repository. You can find this URL on the main page of your repository on GitHub.
+
+**Navigate to the Project Directory:**
+
+Change your working directory to the project folder. In the terminal, type:
+
+```bash
+cd fm-js
+```
+
+Replace `fm-js` with the name of the folder that was created when you cloned the repository.
+
+**Install Project Dependencies:**
+
+Before running the project, you need to install the required dependencies. Run the following command in the terminal:
+
+```bash
+npm install
+```
+
+This command will start the server, and you should see output in the terminal indicating that the server is running.
+
+**Run the Project:**
+
+After installing the dependencies, you can start the local server by running:
+
+```bash
+npm run start
+```
+
+This command will start the server, and you should see output in the terminal indicating that the server is running.
+
+**Visit Page:**
+
+Visit in the browser or in Web Viewer in FM [http://localhost:1234](http://localhost:1234)
+

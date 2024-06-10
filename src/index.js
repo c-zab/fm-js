@@ -2,7 +2,6 @@ window.loadSlider = function (json) {
   console.log("🚀 ~ json:", json);
   const obj = JSON.parse(json);
   const { data } = obj;
-  console.log("🚀 ~ data:", data);
 
   const div = document.getElementById("slider");
 
