@@ -61,3 +61,6 @@ This command will start the server, and you should see output in the terminal in
 
 Visit in the browser or in Web Viewer in FM [http://localhost:1234](http://localhost:1234)
 
+**Run FM file:**
+
+Ask for FM file
